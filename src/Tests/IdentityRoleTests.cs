@@ -31,7 +31,7 @@
 		[Test]
 		public void Create_WithRoleName_SetsName()
 		{
-			var name = "admin";
+			var name = "noadmin";
 
 			var role = new IdentityRole(name);
 
